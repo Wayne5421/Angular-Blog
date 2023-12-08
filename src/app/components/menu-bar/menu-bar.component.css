@@ -1,0 +1,10 @@
+.container__navigator > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container__navigator > ul > li{
+    margin: 20px;
+    list-style: none;
+}
