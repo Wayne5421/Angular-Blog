@@ -1,22 +1,17 @@
 <div class="container__big-card">
 
     <div class="big-card__image">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png"
-            height="250px">
+        <img src="{{imageCover}}" height="250px">
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Primeiro componente com angular!</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
-            <a href="">
-                teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste
-                teste
-                teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste
-                teste
-                teste teste teste teste teste teste teste teste teste teste teste teste
+            <a href="#">
+                {{ cardDescription }}
             </a>
         </p>
     </div>
